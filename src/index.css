@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+div#root {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #cfcfcf;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  background-color: #f8f9fa;
+}
+
+.work {
+  font-style: italic;
+  text-align: right;
+  width: 100%;
+  color: #90979d;
+  font-family: Calibri;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: default;
+}
+
+.header .detail {
+  color: #90979d;
+  font-family: Calibri;
+  cursor: default;
+}
+
+.header span.name {
+  color: #288ffe;
+  font-family: Calibri;
+  cursor: default;
+}
+
+.comp {
+  width: 200px;
+  height: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  height: 30px;
+  width: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.comps {
+  height: 100%;
+  display: flex;
+}
+
+.outerArea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerArea {
+  border: 2px dashed #cfcfcf;
+  border-radius: 0.5rem;
+  height: 100%;
+  margin: 10px;
+}
+
+.btn {
+  border: 0;
+  background: none;
+  outline: none;
+}
+
+.heading {
+  margin: 0;
+  width: fit-content;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.comp-item {
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin: 10px;
+  display: flex;
+  text-indent: 20px;
+  /* color: #90979d; */
+  text-align: center;
+  padding: 10px;
+}
+
+.comp-txt {
+  width: 100%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.btn-1 {
+  width: 100px;
+  height: 30px;
+}
